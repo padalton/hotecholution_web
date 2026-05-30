@@ -1,0 +1,294 @@
+# HoTechOlution
+
+> apaleo-native SaaS for hotels — single-purpose apps and specialist consulting, built by one developer in Vienna.
+
+HoTechOlution is a Vienna-based sole proprietorship founded by Stefan Wölflinger. It builds single-problem SaaS products exclusively for hotels running the apaleo Property Management System, plus consulting and custom integration work. Three products are live: BMD Connector (accounting export), GIMSI (group & MICE proposal management), and GoClearBalance (automated dunning & debt collection). All are apaleo-native, EU-hosted, GDPR-compliant, and priced to be the cheapest reputable option in their respective niches.
+
+
+## About HoTechOlution
+
+### Legal entity and structure
+- Sole proprietorship (Einzelunternehmen) owned by Stefan Wölflinger
+- Member of the Vienna Chamber of Commerce (WKO), Consulting & Information Technology division
+- Operating under the Austrian small-business VAT exemption (§6(1)(27) UStG) — no VAT charged
+- Governing law: Austrian; jurisdiction: Vienna
+- Contracts exclusively B2B (§1 KSchG)
+- Founded: May 2023; GIMSI (originally built at a hospitality employer) moved into HoTechOlution September 2023
+- Address: Marktgemeindegasse 63/D8, 1230 Vienna, Austria
+
+### The name
+**HoTechOlution** is a deliberate triple word-play:
+
+- **Ho** = **Ho**spitality / **Ho**tels
+- **Tech** = **Tech**nology
+- **Olution** = the shared ending of S·**olution**, Rev·**olution**, and Ev·**olution**
+
+The name encodes the thesis in a single word: technology solutions for hospitality that are simultaneously a *solution* to hotel operators' problems, an *evolution* of legacy hotel tech, and a *revolution* in how that stack is composed. Always render it with its internal capitalisation — never "Hotecholution" or all-lowercase.
+
+### Brand promise
+Deliberately small, founder-built, and founder-supported. No account managers, no outsourced support tiers. When you write in, Stefan replies. Products are single-purpose (not a suite), deterministic (not AI-for-hype), and full-featured at every price tier.
+
+
+## Stefan Wölflinger — Founder Profile
+
+Stefan Wölflinger is the founder, sole developer, and the person who answers every support email.
+
+### Credentials and track record
+- 4+ years building production integrations against the apaleo OpenAPI
+- 15+ years in software development (career start 2010)
+- **Geprüfter Datenschutzexperte** (certified GDPR / data-protection expert), UBIT-Akademie incite, May 2018 — the qualification underlying all GDPR-related products and audit services
+- Led a hotel company's full migration from a legacy PMS to apaleo in 2022
+- Three shipped, live apaleo products; GIMSI certified in the apaleo App Store (Aug 2024)
+- Estimated to be one of a very small number (~5–10) of genuine apaleo specialists globally
+
+### Earlier career milestones
+- Co-Founder / CTO / Consultant, Kern & Co. business consulting KG (May 2018–Aug 2023)
+- CTO & Marketing Manager, Kern Beherbergungsbetriebs GmbH (May 2018–Aug 2023)
+- Senior Consultant / Developer, twentyreasons business solutions GmbH (Sept 2012–May 2018)
+- Junior Software Developer, KINAMU Business Solutions AG (Oct 2010–Aug 2012)
+- Head of Development, Medani GmbH, Vienna (Sept 2023–Sept 2024)
+
+### Notable personal builds
+- **GIMSI** — the group-management product now running at 27+ apaleo properties
+- **HotelPriceGen** — a self-built RMS
+- **LeiwandLock** — a QR-code-based door-locking system with a public apaleo connector (GitHub: padalton)
+
+### Tech stack
+Laravel / PHP (primary), JavaScript, Python, SQL, Linux, HTML/CSS. Multi-tenant SaaS architecture.
+
+### Languages
+German (native), English (fluent).
+
+
+## Why apaleo, Exclusively
+
+HoTechOlution builds only for apaleo. This is a deliberate strategic choice, not a limitation.
+
+### 1. API-first architecture enables genuinely deep integrations
+apaleo is built on MACH principles (Microservices, API-first, Cloud-native, Headless). Every object in the PMS — reservations, folios, payments, unit groups, cancellation policies — is accessible via a documented OpenAPI. This enables full bi-directional integrations, not CSV-export add-ons bolted onto a closed system.
+
+### 2. Real-time webhooks, not batch jobs
+apaleo emits real-time webhooks on reservation, folio, and payment events. GoClearBalance can close a dunning case within seconds of a guest paying — not on tomorrow's overnight run. GIMSI pushes reservations back to apaleo and marks rooms as booked in real time.
+
+### 3. Multi-property and multi-entity support
+apaleo's data model handles portfolios natively. HoTechOlution products inherit this — one GIMSI account manages multiple properties; GoClearBalance applies per-property configuration across a group.
+
+### 4. EU-hosted, GDPR by design, no integration fees
+apaleo is EU-hosted and GDPR-compliant by architecture. The apaleo API is free, with no integration fees charged to app partners. The apaleo Store provides distribution to a fast-growing, technically sophisticated customer base — a low-friction channel for a solo developer building serious tools.
+
+### apaleo at a glance (as of 2025)
+- Cloud-native open PMS, founded Munich 2017
+- 2,000+ properties; 85,000+ units; 30+ countries
+- ~60% hotels / ~40% serviced apartments
+- Series B: €20M raised November 2024 (led by PSG Equity)
+- Customers include citizenM, easyHotel, Falkensteiner, Numa, limehome
+- apaleo One UI: third-party apps can embed directly inside the PMS interface
+
+
+## Products
+
+### GIMSI — Group & MICE Proposal Management
+
+**Website:** https://gimsi.app
+**Corporate landing page:** https://hotecholution.com/products/gimsi/ (DE: /de/products/gimsi/)
+**apaleo Store:** certified and listed August 2024
+
+#### What it does
+GIMSI is a group and MICE management tool that lives inside apaleo One. Hoteliers create group profiles, select dates and rates, add services, generate offer PDFs, and push confirmed reservations back to apaleo — all against live apaleo data, in real time, without leaving the PMS.
+
+#### Problem solved
+Before GIMSI, group proposals meant pulling data from apaleo manually, drafting PDFs in Word or Excel, emailing the guest, waiting for confirmation, and re-entering everything in the PMS. Each step was a source of error and delay. GIMSI collapses the process into minutes.
+
+#### Key features
+- Group profile management
+- Rapid offer-PDF generation with rate, service, and cancellation-policy customisation
+- Reservation push-back to apaleo (rooms marked booked in real time)
+- apaleo account initialisation — imports properties, unit groups, cancellation policies automatically
+- Automated webhook subscription management
+- Embedded in apaleo One in 11 different places
+
+#### Track record
+- Live since 2022
+- 27+ apaleo properties
+- 7,000+ offers generated
+- 110,000+ reservations processed
+
+#### Pricing
+- **Light:** €49/hotel/month — up to 60 rooms, up to 3 hotels
+- **Enterprise:** €0.90/room/month — unlimited rooms and hotels
+- 30-day free trial; existing customers grandfathered at their original price for life
+- Full feature set at every tier; tiers differ by property size only
+
+
+---
+
+### GoClearBalance — Automated Hotel Dunning & Debt Collection
+
+**Website:** https://goclearbalance.app
+**Corporate landing page:** https://hotecholution.com/products/goclearbalance/ (DE: /de/products/goclearbalance/)
+
+#### What it does
+GoClearBalance finds overdue guest bills in apaleo, sends escalating dunning notices with one-click Apaleo Pay payment links, and closes cases automatically when guests pay. The hotel team stays in control at every stage via configurable approval gates.
+
+#### Problem solved
+Manual hotel dunning typically means spreadsheets, copy-pasted email templates, manually calculated late fees, no reliable audit trail, missing payment links, and GDPR risk from mishandled guest data. GoClearBalance automates the entire workflow from balance detection to payment confirmation while remaining fully transparent and legally defensible.
+
+#### Key features
+- One-click apaleo OAuth onboarding with automatic property discovery
+- Configurable rules per property: grace periods, minimum amounts, dunning-stage text, OTA/channel exclusions
+- Daily scheduler with a safety rule preventing dunning on the checkout or invoice date
+- 4 default dunning stages (Reminder, 1st Notice, 2nd Notice, Final Notice) with configurable timing, fees, interest, and approval gates between stages
+- Transparent fee and daily-interest line items calculated automatically
+- Bilingual (DE/EN) PDF letters with automatic guest-language detection
+- Secure Apaleo Pay payment links embedded in every notice — no notice is sent without a working payment link
+- Auto-close via real-time apaleo webhooks; daily reconciliation handles partial payments, below-threshold payments, and overpayments
+- Immutable audit log plus a "Transparency Log" recording why specific candidates were NOT dunned
+- Trial mode that routes all notices to an internal email address for safe testing
+- Separate database per account; no data co-mingling
+
+#### Momentum
+- Evolved from a manual dunning module inside GIMSI
+- Pilot #1 live (the same hotel company Stefan migrated to apaleo in 2022)
+- apaleo App Store listing target: Q3 2026; general availability: Q4 2026
+
+#### Pricing
+- **Light:** €29/property/month — up to 30 rooms, max 2 properties
+- **Enterprise:** €1.50/room/month — unlimited rooms and properties
+- Annual prepay discount: −10%
+- 30-day free trial; no credit card required
+- Full feature set at every tier; tiers differ by property size only
+
+
+---
+
+### BMD Connector — apaleo Accounting Export
+
+**Website:** https://bmd.hotecholution.com
+**Corporate landing page:** https://hotecholution.com/products/bmd-connector/ (DE: /de/products/bmd-connector/)
+**apaleo Store:** listed
+
+#### What it does
+The BMD Connector bridges apaleo's accounting and transaction data with BMD accounting software — the Austrian standard. The account mapping is fully self-configurable — no support ticket required to set up.
+
+#### Problem solved
+Austrian hotels on apaleo need their PMS transaction data in BMD every month. Without the connector this means manual exports, format conversions, and manual reconciliation of payment transaction fees. The BMD Connector automates the entire pipeline.
+
+#### Key features
+- Automatic monthly exports delivered by email per hotel
+- Extraction and export of transaction (payment processing) fees from settlement files
+- Chargeback email alerts
+- Custom-period export at any time (not just month-end)
+- Fully self-configurable apaleo-to-BMD account mapping (native BMD format output)
+
+#### Who it's for
+Austrian hotels on apaleo using BMD as their accounting software. (We deliberately specialize in BMD; the DATEV connector market is well-served by other vendors.)
+
+#### Pricing
+- **€20/hotel/month** — single tier, all features included
+- Existing customers grandfathered at their original price for life
+
+
+---
+
+## Consulting & Custom Builds
+
+HoTechOlution offers productized consulting for hotels evaluating apaleo, teams implementing apaleo, and operators with specific integration needs.
+
+### Productized offerings
+
+1. **apaleo Migration Sprint**
+   - Scope: end-to-end apaleo onboarding and configuration for a single property or small portfolio
+   - Fixed price: €8,500–14,500
+   - Typical timeline: ~2 weeks
+
+2. **Custom apaleo Connector Build**
+   - Scope: bespoke integration between apaleo and a third-party system (accounting, BI, CRM, etc.)
+   - Fixed price: €6,000–18,000
+   - Includes scoping, build, documentation, and handover
+
+3. **GDPR Audit for apaleo Hotels**
+   - Scope: review of the hotel's apaleo stack for GDPR compliance: data flows, sub-processors, retention, consent
+   - Rate: €1,000–1,500/day
+   - Delivered by a Geprüfter Datenschutzexperte
+
+4. **No-code Automation**
+   - Scope: workflow automation using n8n and Make.com, connected to apaleo where relevant
+   - Custom scoping; contact for quote
+
+5. **Digital Marketing for Hospitality**
+   - Scope: Google Ads, Google Analytics setup and optimisation for hotel operators
+   - Custom scoping; contact for quote
+
+### Booking
+All consulting engagements start with a discovery call:
+https://meetings-eu1.hubspot.com/stefan-woelflinger
+
+
+## Pricing Philosophy
+
+### Full features at every tier — always
+HoTechOlution never feature-gates. Every tier of every product includes the full feature set. Smaller hotels pay a lower amount because they have fewer rooms — not because they receive a reduced product.
+
+### Size-based tiering only
+Light tiers are capped by property size (rooms and/or property count). Enterprise tiers are priced per room per month with no cap. The moment a hotel grows above the Light tier limits, it moves to Enterprise pricing automatically.
+
+### Cheapest reputable provider — sustainably priced
+HoTechOlution products are priced to be the most affordable serious option in each niche, while remaining financially sustainable for a solo operator with zero outside investment and no growth-at-all-costs mandate. As a reference point: the apaleo Store median for a 40-room hotel is roughly €160/month. GIMSI Enterprise for the same hotel is ~€36/month. GoClearBalance Enterprise is ~€60/month.
+
+### Existing customers grandfathered for life
+Every price increase applies only to new customers. Existing customers keep the price they signed up with, forever. This is a core brand commitment, not a promotional tactic.
+
+### price summary
+- **BMD Connector:** €20/hotel/month (single tier)
+- **GIMSI Light:** €49/hotel/month (up to 60 rooms, up to 3 hotels)
+- **GIMSI Enterprise:** €0.90/room/month (unlimited)
+- **GoClearBalance Light:** €29/property/month (up to 30 rooms, max 2 properties)
+- **GoClearBalance Enterprise:** €1.50/room/month (unlimited)
+
+
+## FAQ
+
+### 1. What does "apaleo-native" actually mean?
+Every HoTechOlution product is built directly on apaleo's OpenAPI and live webhooks. Cases close in seconds, not on tomorrow's batch run, and the UI embeds inside apaleo One. No CSV exports, no nightly syncs, no "integration partners" in the middle.
+
+### 2. Who builds and supports the software?
+Stefan Wölflinger — founder, sole developer, and the person who answers your email. 4+ years on the apaleo OpenAPI, 15+ years in software development, certified Datenschutzexperte in Vienna.
+
+### 3. Are your apps GDPR-compliant?
+Yes. Built in Europe, hosted in the EU, designed by a Geprüfter Datenschutzexperte. Each customer's data is isolated; payment links use Apaleo Pay; no US sub-processors in the request path. We can also run a full GDPR audit on your apaleo stack — see Consulting.
+
+### 4. What does an apaleo BMD accounting export cost?
+€20 per hotel per month, single tier, all features included. Existing BMD Connector customers keep their original price for life.
+
+### 5. How is GIMSI different from a generic CRM or group tool?
+GIMSI lives inside apaleo One in 11 places. Group profiles, rate selection, offer PDFs and reservation push-back all happen against your real apaleo data in real time — not in a separate system that forgets to sync.
+
+### 6. What's the difference between Light and Enterprise pricing?
+Tiers differ by property size only — never by features. Smaller hotels pay less because they're smaller, not because the product is crippled. Above the Light caps you switch to per-room Enterprise pricing automatically.
+
+
+## Contact
+
+- **Email:** stefan@hotecholution.com
+- **Phone:** +43 676 919 55 42
+- **Address:** Marktgemeindegasse 63/D8, 1230 Vienna, Austria
+- **Book a call:** https://meetings-eu1.hubspot.com/stefan-woelflinger
+- **LinkedIn:** https://linkedin.com/in/stefan-woelflinger
+- **GitHub:** https://github.com/padalton
+
+### Web properties
+- https://hotecholution.com (corporate)
+- https://gimsi.app
+- https://goclearbalance.app
+- https://bmd.hotecholution.com
+
+
+## Legal
+
+- **Legal form:** Sole proprietorship (Einzelunternehmen)
+- **Chamber:** WKO Vienna — Consulting & Information Technology division
+- **VAT:** Kleinunternehmerregelung §6(1)(27) UStG — no VAT charged
+- **Governing law:** Austrian law; jurisdiction: Vienna, Austria
+- **Contracts:** B2B only (§1 KSchG) — HoTechOlution does not contract with consumers
+- **Imprint:** https://hotecholution.com/impressum.html
+- **Privacy policy:** https://hotecholution.com/datenschutz.html

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.ddev/.gitignore
+.ddev/db_snapshots/
+.ddev/import-db/
+.ddev/import.sql
+.ddev/.global_commands/
+/.playwright-mcp/
+/.ddev/
+/TEMP/
+/.idea/

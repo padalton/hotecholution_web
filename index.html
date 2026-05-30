@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HoTechOlution — apaleo-native software for hotels</title>
+<meta name="description" content="Single-purpose SaaS for apaleo hotels — built, shipped and supported by one apaleo specialist in Vienna. GIMSI, GoClearBalance, BMD Connector." />
+<meta name="robots" content="index,follow,max-image-preview:large" />
+<meta name="theme-color" content="#110546" />
+<meta name="geo.region" content="AT-9" />
+<meta name="geo.placename" content="Vienna" />
+<meta name="author" content="Stefan Wölflinger" />
+
+<link rel="canonical" href="https://hotecholution.com/" />
+<link rel="alternate" hreflang="en" href="https://hotecholution.com/" />
+<link rel="alternate" hreflang="de" href="https://hotecholution.com/de/" />
+<link rel="alternate" hreflang="x-default" href="https://hotecholution.com/" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="HoTechOlution — apaleo-native software for hotels" />
+<meta property="og:description" content="GIMSI · GoClearBalance · BMD Connector — single-purpose SaaS for apaleo hotels, from Vienna." />
+<meta property="og:image" content="https://hotecholution.com/assets/og-card.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://hotecholution.com/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="HoTechOlution" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:locale:alternate" content="de_AT" />
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="HoTechOlution — apaleo-native software for hotels" />
+<meta name="twitter:description" content="GIMSI · GoClearBalance · BMD Connector — single-purpose SaaS for apaleo hotels, from Vienna." />
+<meta name="twitter:image" content="https://hotecholution.com/assets/og-card.png" />
+
+<!-- Favicons -->
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icon-32.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png" />
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+
+<!-- Self-hosted fonts — preload critical faces, then declare all -->
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/poppins-700.woff2" crossorigin />
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/plex-sans-400.woff2" crossorigin />
+
+<link rel="stylesheet" href="/styles.css" />
+
+<!-- ============ JSON-LD: structured data ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://hotecholution.com/#organization",
+      "name": "HoTechOlution",
+      "legalName": "Stefan Wölflinger (HoTechOlution)",
+      "url": "https://hotecholution.com/",
+      "logo": "https://hotecholution.com/assets/hto-icon.png",
+      "image": "https://hotecholution.com/assets/og-card.png",
+      "description": "Single-purpose SaaS for apaleo hotels — built, shipped and supported by one apaleo specialist in Vienna.",
+      "foundingDate": "2023-05",
+      "founder": { "@id": "https://hotecholution.com/#stefan" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Marktgemeindegasse 63/D8",
+        "postalCode": "1230",
+        "addressLocality": "Vienna",
+        "addressCountry": "AT"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "stefan@hotecholution.com",
+        "telephone": "+43-676-919-55-42",
+        "contactType": "sales",
+        "areaServed": ["AT", "DE", "CH"],
+        "availableLanguage": ["de", "en"]
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/stefan-woelflinger",
+        "https://github.com/padalton",
+        "https://firmen.wko.at/stefan-w%C3%B6lflinger/wien/?firmaid=1351eeb1-2c33-4a96-8265-73894fd4a72d",
+        "https://gimsi.app",
+        "https://goclearbalance.app",
+        "https://bmd.hotecholution.com"
+      ],
+      "identifier": [
+        { "@type": "PropertyValue", "propertyID": "wko-firmaid", "value": "1351eeb1-2c33-4a96-8265-73894fd4a72d" }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://hotecholution.com/#stefan",
+      "name": "Stefan Wölflinger",
+      "jobTitle": "Founder & sole developer, HoTechOlution",
+      "knowsAbout": ["apaleo", "Hotel PMS", "Hospitality Technology", "GDPR", "DSGVO", "Software Engineering", "OpenAPI"],
+      "sameAs": [
+        "https://www.linkedin.com/in/stefan-woelflinger",
+        "https://github.com/padalton"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "GIMSI",
+      "url": "https://gimsi.app",
+      "image": "https://hotecholution.com/assets/icon-gimsi.png",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "softwareRequirements": "apaleo PMS",
+      "publisher": { "@id": "https://hotecholution.com/#organization" },
+      "description": "Group & MICE proposal management for apaleo. Build group profiles, generate offer PDFs in minutes, push reservations back to apaleo in real time.",
+      "featureList": ["Group profile management", "Offer PDFs in minutes", "Real-time push to apaleo", "Embedded in 11 places in apaleo One"],
+      "offers": [
+        { "@type": "Offer", "name": "Light", "price": "49", "priceCurrency": "EUR", "description": "€49 per hotel per month — up to 60 rooms, up to 3 hotels.", "url": "https://gimsi.app" },
+        { "@type": "Offer", "name": "Enterprise", "price": "0.90", "priceCurrency": "EUR", "description": "€0.90 per room per month — unlimited rooms and hotels.", "url": "https://gimsi.app" }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "GoClearBalance",
+      "url": "https://goclearbalance.app",
+      "image": "https://hotecholution.com/assets/icon-goclearbalance.png",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "softwareRequirements": "apaleo PMS, Apaleo Pay",
+      "publisher": { "@id": "https://hotecholution.com/#organization" },
+      "description": "Automated dunning and debt collection for apaleo hotels — finds overdue balances, sends escalating notices with one-click Apaleo Pay links, auto-closes cases on payment.",
+      "featureList": ["4 configurable dunning stages", "One-click Apaleo Pay links", "Bilingual DE/EN letters", "Immutable audit & transparency log"],
+      "offers": [
+        { "@type": "Offer", "name": "Light", "price": "29", "priceCurrency": "EUR", "description": "€29 per property per month — up to 30 rooms, max 2 properties.", "url": "https://goclearbalance.app" },
+        { "@type": "Offer", "name": "Enterprise", "price": "1.50", "priceCurrency": "EUR", "description": "€1.50 per room per month — unlimited; −10% annual.", "url": "https://goclearbalance.app" }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "BMD Connector",
+      "url": "https://bmd.hotecholution.com",
+      "image": "https://hotecholution.com/assets/icon-bmd.png",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "softwareRequirements": "apaleo PMS, BMD accounting software (Austria)",
+      "publisher": { "@id": "https://hotecholution.com/#organization" },
+      "description": "apaleo → BMD accounting export with fully self-configurable account mapping, automatic monthly exports, transaction-fee extraction and chargeback alerts. Built for the Austrian market.",
+      "featureList": ["Automatic monthly exports by email", "Self-configurable account mapping", "Transaction-fee extraction", "Chargeback email alerts"],
+      "offers": {
+        "@type": "Offer",
+        "name": "Single tier",
+        "price": "20",
+        "priceCurrency": "EUR",
+        "description": "€20 per hotel per month — all features included. Existing customers grandfathered for life.",
+        "url": "https://bmd.hotecholution.com"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://hotecholution.com/#consulting",
+      "name": "HoTechOlution Consulting — apaleo migration, custom builds & GDPR audits",
+      "provider": { "@id": "https://hotecholution.com/#organization" },
+      "areaServed": ["AT", "DE", "CH"],
+      "priceRange": "€140–€18,000",
+      "serviceType": [
+        "apaleo Migration Sprint",
+        "Custom apaleo Connector",
+        "GDPR Audit for apaleo Hotels",
+        "No-code Automation (n8n, Make.com)",
+        "Digital Marketing for Hospitality"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does \"apaleo-native\" actually mean?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Every HoTechOlution product is built directly on apaleo's OpenAPI and live webhooks. Cases close in seconds, not on tomorrow's batch run, and the UI embeds inside apaleo One. No CSV exports, no nightly syncs, no \"integration partners\" in the middle." }
+        },
+        {
+          "@type": "Question",
+          "name": "Who builds and supports the software?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Stefan Wölflinger — founder, sole developer, and the person who answers your email. 4+ years on the apaleo OpenAPI, 15+ years in software development, certified Datenschutzexperte in Vienna." }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your apps GDPR-compliant?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Built in Europe, hosted in the EU, designed by a Geprüfter Datenschutzexperte. Each customer's data is isolated; payment links use Apaleo Pay; no US sub-processors in the request path. We can also run a full GDPR audit on your apaleo stack — see Consulting." }
+        },
+        {
+          "@type": "Question",
+          "name": "What does an apaleo BMD accounting export cost?",
+          "acceptedAnswer": { "@type": "Answer", "text": "€20 per hotel per month, single tier, all features included. Existing BMD Connector customers keep their original price for life." }
+        },
+        {
+          "@type": "Question",
+          "name": "How is GIMSI different from a generic CRM or group tool?",
+          "acceptedAnswer": { "@type": "Answer", "text": "GIMSI lives inside apaleo One in 11 places. Group profiles, rate selection, offer PDFs and reservation pushback all happen against your real apaleo data in real time — not in a separate system that forgets to sync." }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the difference between Light and Enterprise pricing?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Tiers differ by property size only — never by features. Smaller hotels pay less because they're smaller, not because the product is crippled. Above the Light caps you switch to per-room Enterprise pricing automatically." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body data-lang="en">
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top" aria-label="HoTechOlution home">
+      <img src="/assets/hto-icon.png" alt="" width="34" height="34" decoding="async" />
+      <span class="wm"><span class="g">Ho</span><span class="p">Tech</span><span class="c">Olution</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#products" data-i18n="nav.products">Products</a>
+      <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+      <a href="#founder" data-i18n="nav.founder">Founder</a>
+      <a href="#consulting" data-i18n="nav.consulting">Consulting</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang" role="group" aria-label="Language">
+        <button data-lang-btn="en" class="active" aria-pressed="true">EN</button>
+        <button data-lang-btn="de" aria-pressed="false">DE</button>
+      </div>
+      <a href="#contact" class="btn btn-coral" data-i18n="nav.cta">Book a call</a>
+      <button class="nav-burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="mobileMenu"><span aria-hidden="true"></span></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#products" data-i18n="nav.products">Products</a>
+  <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+  <a href="#founder" data-i18n="nav.founder">Founder</a>
+  <a href="#consulting" data-i18n="nav.consulting">Consulting</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact" data-i18n="nav.cta">Book a call</a>
+  <div class="lang lang-row" role="group" aria-label="Language">
+    <button data-lang-btn="en" class="active" aria-pressed="true">EN</button>
+    <button data-lang-btn="de" aria-pressed="false">DE</button>
+  </div>
+</div>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow"><span class="dot"></span><span data-i18n="hero.eyebrow">apaleo-native SaaS · Vienna, Austria</span></span>
+      <h1 style="margin-top:20px"><span class="g">Ho</span><span class="p">Tech</span><span class="c">Olution</span></h1>
+      <div class="decomp">
+        <span class="chip g"><span data-i18n="hero.chip1lbl">Ho</span> · <b data-i18n="hero.chip1">Hospitality</b></span>
+        <span class="chip p"><span data-i18n="hero.chip2lbl">Tech</span> · <b data-i18n="hero.chip2">Technology</b></span>
+        <span class="chip c">Olution · <b class="cycler" id="cycler" aria-live="polite"></b></span>
+      </div>
+      <p class="hero-sub" data-i18n="hero.sub">Single-purpose software for apaleo hotels — built, shipped and supported by one apaleo specialist in Vienna.</p>
+      <div class="hero-cta">
+        <a href="#products" class="btn btn-primary" data-i18n="hero.cta1">Explore the products</a>
+        <a href="#contact" class="btn btn-ghost" data-i18n="hero.cta2">Book 20 min with Stefan</a>
+      </div>
+      <div class="hero-meta">
+        <div class="item"><b>4+ yrs</b><span data-i18n="hero.m1">on the apaleo API</span></div>
+        <div class="item"><b>15+ yrs</b><span data-i18n="hero.m4">in software development</span></div>
+        <div class="item"><b>3</b><span data-i18n="hero.m2">live products</span></div>
+        <div class="item"><b>27+</b><span data-i18n="hero.m3">apaleo hotels served</span></div>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="halo"></div>
+      <picture>
+        <source type="image/avif" srcset="/assets/hto-icon.avif" />
+        <img src="/assets/hto-icon.png" alt="HoTechOlution mark — a building, half architecture, half circuit board" width="380" height="380" fetchpriority="high" decoding="async" />
+      </picture>
+    </div>
+  </div>
+</section>
+
+<!-- ============ apaleo BAND ============ -->
+<section class="band" id="apaleo">
+  <div class="wrap band-grid">
+    <div>
+      <span class="eyebrow"><span class="dot"></span><span data-i18n="band.eyebrow">Built exclusively for apaleo</span></span>
+      <h2 data-i18n="band.title">One platform. Deep, real-time integrations — not CSV add-ons.</h2>
+      <p data-i18n="band.body">Every HoTechOlution product plugs straight into apaleo's open API and live webhooks. That means cases close in seconds, data stays in sync, and apps embed right inside the apaleo UI — the way a modern, composable hotel stack is meant to work.</p>
+      <p class="band-note" data-i18n="band.note">apaleo figures from apaleo's own communications, 2024–2025.</p>
+    </div>
+    <div class="band-stats">
+      <div class="s"><div class="n">2,000+</div><div class="l" data-i18n="band.s1">apaleo properties worldwide</div></div>
+      <div class="s"><div class="n">85,000+</div><div class="l" data-i18n="band.s2">units under management</div></div>
+      <div class="s"><div class="n">30+</div><div class="l" data-i18n="band.s3">countries</div></div>
+      <div class="s"><div class="n">250+</div><div class="l" data-i18n="band.s4">apps in the apaleo Store</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY APALEO (new) ============ -->
+<section class="section why" id="why">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span class="dot"></span><span data-i18n="why.eyebrow">Why apaleo, and only apaleo</span></span>
+      <h2 data-i18n="why.title">An API-first PMS deserves API-first apps.</h2>
+      <p class="lede" data-i18n="why.lede">apaleo is the cloud-native, open PMS that lets a small studio build deeply integrated apps — not CSV add-ons. Four reasons every HoTechOlution product is apaleo-only:</p>
+    </div>
+    <div class="why-grid">
+      <article class="why-card reveal" style="--accent:var(--periwinkle)">
+        <div class="why-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8l-4 4 4 4"/><path d="M17 8l4 4-4 4"/><path d="M14 4l-4 16"/></svg></div>
+        <h3 data-i18n="why.1t">API-first design</h3>
+        <p data-i18n="why.1b">apaleo's OpenAPI exposes folio state, reservations, payment events and multi-property isolation on a single surface. That's what lets our apps embed into apaleo One in real time — not as nightly batch syncs.</p>
+      </article>
+      <article class="why-card reveal" style="--accent:var(--coral)">
+        <div class="why-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3"/><path d="M12 19v3"/><path d="M2 12h3"/><path d="M19 12h3"/><path d="M5 5l2.5 2.5"/><path d="M16.5 16.5L19 19"/><path d="M5 19l2.5-2.5"/><path d="M16.5 7.5L19 5"/></svg></div>
+        <h3 data-i18n="why.2t">Real-time webhooks</h3>
+        <p data-i18n="why.2b">apaleo Pay and reservation webhooks fire the moment something happens. Cases close in seconds; data stays in sync — not in tomorrow morning's reconciliation.</p>
+      </article>
+      <article class="why-card reveal" style="--accent:var(--ink)">
+        <div class="why-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div>
+        <h3 data-i18n="why.3t">Multi-property by design</h3>
+        <p data-i18n="why.3b">Every product respects per-property configuration: rules, exclusions, mappings and grace periods are independent. A 3-hotel group and a 30-hotel chain configure the same way.</p>
+      </article>
+      <article class="why-card reveal" style="--accent:var(--green)">
+        <div class="why-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.5 8.5 8 11 4.5-2.5 8-6 8-11V5l-8-3z"/><polyline points="8.5 12 11 14.5 15.5 9.5"/></svg></div>
+        <h3 data-i18n="why.4t">EU-hosted, GDPR by design</h3>
+        <p data-i18n="why.4b">Vienna-based, EU-hosted, built by a Geprüfter Datenschutzexperte. Same legal jurisdiction as our DACH hotel customers. No US sub-processors in the request path.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRODUCTS ============ -->
+<section class="section products" id="products">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span class="dot"></span><span data-i18n="prod.eyebrow">Live products</span></span>
+      <h2 data-i18n="prod.title">Three apps. Each solves exactly one problem — completely.</h2>
+      <p class="lede" data-i18n="prod.lede">No bloated all-in-one suite. Single-purpose tools you can compose into your apaleo stack, with full functionality at every price tier.</p>
+    </div>
+
+    <div class="prod-list">
+
+      <!-- GIMSI -->
+      <article class="prod reveal" style="--accent:var(--periwinkle)">
+        <div class="prod-main">
+          <div class="prod-top">
+            <span class="prod-badge">
+              <picture>
+                <source type="image/avif" srcset="/assets/icon-gimsi.avif" />
+                <source type="image/webp" srcset="/assets/icon-gimsi.webp" />
+                <img src="/assets/icon-gimsi.png" alt="GIMSI" width="60" height="60" loading="lazy" decoding="async" />
+              </picture>
+            </span>
+            <span class="prod-live" style="color:var(--green);background:rgba(21,146,104,.1)"><span class="pulse"></span><span data-i18n="prod.live">Live · in apaleo Store</span></span>
+          </div>
+          <h3><a href="/products/gimsi/">GIMSI</a></h3>
+          <div class="kicker" data-i18n="prod.gimsi.kick">Group &amp; Proposal Management</div>
+          <p class="desc" data-i18n="prod.gimsi.desc">Build group &amp; MICE profiles, pick dates and rates, generate a polished offer PDF in minutes, and push the reservations straight back into apaleo in real time.</p>
+          <ul class="prod-feats">
+            <li data-i18n="prod.gimsi.f1">Group profile management</li>
+            <li data-i18n="prod.gimsi.f2">Offer PDFs in minutes</li>
+            <li data-i18n="prod.gimsi.f3">Real-time push to apaleo</li>
+            <li data-i18n="prod.gimsi.f4">Embedded in 11 places in apaleo One</li>
+          </ul>
+          <div class="prod-stats" data-i18n="prod.gimsi.stats">7,000+ offers · 110,000+ reservations pushed to apaleo · 27+ hotels.</div>
+        </div>
+        <aside class="prod-aside">
+          <div class="price-row">
+            <span class="ptier" data-i18n="prod.tier.light">Light</span>
+            <span class="pval">€49<small data-i18n="prod.per.hotel">/hotel/mo</small></span>
+            <span class="pnote" data-i18n="prod.gimsi.lightnote">up to 60 rooms, up to 3 hotels</span>
+          </div>
+          <div class="divider"></div>
+          <div class="price-row">
+            <span class="ptier" data-i18n="prod.tier.ent">Enterprise</span>
+            <span class="pval">€0.90<small data-i18n="prod.per.room">/room/mo</small></span>
+            <span class="pnote" data-i18n="prod.gimsi.entnote">unlimited rooms &amp; hotels</span>
+          </div>
+          <div class="divider"></div>
+          <span class="trial" data-i18n="prod.gimsi.trial">▸ 30-day free trial</span>
+          <a class="plink" href="https://gimsi.app" target="_blank" rel="noopener" data-i18n="prod.gimsi.link">Visit gimsi.app</a>
+        </aside>
+      </article>
+
+      <!-- GoClearBalance -->
+      <article class="prod reveal" style="--accent:var(--coral)">
+        <div class="prod-main">
+          <div class="prod-top">
+            <span class="prod-badge">
+              <picture>
+                <source type="image/avif" srcset="/assets/icon-goclearbalance.avif" />
+                <source type="image/webp" srcset="/assets/icon-goclearbalance.webp" />
+                <img src="/assets/icon-goclearbalance.png" alt="GoClearBalance" width="60" height="60" loading="lazy" decoding="async" />
+              </picture>
+            </span>
+            <span class="prod-live" style="color:var(--green);background:rgba(21,146,104,.1)"><span class="pulse"></span><span data-i18n="prod.live.pilot">Live · pilot running</span></span>
+          </div>
+          <h3><a href="/products/goclearbalance/">GoClearBalance</a></h3>
+          <div class="kicker" data-i18n="prod.gcb.kick">Automated dunning &amp; debt collection (Mahnwesen &amp; Inkasso)</div>
+          <p class="desc" data-i18n="prod.gcb.desc">Finds overdue guest balances in apaleo, sends escalating dunning notices with one-click Apaleo Pay links, and auto-closes cases the moment a guest pays — your team stays in control.</p>
+          <ul class="prod-feats">
+            <li data-i18n="prod.gcb.f1">4 configurable dunning stages</li>
+            <li data-i18n="prod.gcb.f2">One-click Apaleo Pay links</li>
+            <li data-i18n="prod.gcb.f3">Bilingual DE / EN letters</li>
+            <li data-i18n="prod.gcb.f4">Immutable audit &amp; transparency log</li>
+          </ul>
+        </div>
+        <aside class="prod-aside">
+          <div class="price-row">
+            <span class="ptier" data-i18n="prod.tier.light">Light</span>
+            <span class="pval">€29<small data-i18n="prod.per.prop">/property/mo</small></span>
+            <span class="pnote" data-i18n="prod.gcb.lightnote">up to 30 rooms, max 2 properties</span>
+          </div>
+          <div class="divider"></div>
+          <div class="price-row">
+            <span class="ptier" data-i18n="prod.tier.ent">Enterprise</span>
+            <span class="pval">€1.50<small data-i18n="prod.per.room">/room/mo</small></span>
+            <span class="pnote" data-i18n="prod.gcb.entnote">unlimited · −10% annual</span>
+          </div>
+          <div class="divider"></div>
+          <span class="trial" data-i18n="prod.gcb.trial">▸ 30-day free trial, no card</span>
+          <a class="plink" href="https://goclearbalance.app" target="_blank" rel="noopener" data-i18n="prod.gcb.link">Visit goclearbalance.app</a>
+        </aside>
+      </article>
+
+      <!-- BMD Connector -->
+      <article class="prod reveal" style="--accent:var(--green)">
+        <div class="prod-main">
+          <div class="prod-top">
+            <span class="prod-badge">
+              <picture>
+                <source type="image/avif" srcset="/assets/icon-bmd.avif" />
+                <source type="image/webp" srcset="/assets/icon-bmd.webp" />
+                <img src="/assets/icon-bmd.png" alt="BMD Connector" width="60" height="60" loading="lazy" decoding="async" />
+              </picture>
+            </span>
+            <span class="prod-live" style="color:var(--green);background:rgba(21,146,104,.1)"><span class="pulse"></span><span data-i18n="prod.live">Live · in apaleo Store</span></span>
+          </div>
+          <h3><a href="/products/bmd-connector/" data-i18n="prod.bmd.name">BMD Connector</a></h3>
+          <div class="kicker" data-i18n="prod.bmd.kick">apaleo → BMD accounting export (Austria)</div>
+          <p class="desc" data-i18n="prod.bmd.desc">Bridges apaleo finance data to BMD with fully self-configurable account mapping. Automatic monthly exports, transaction-fee extraction and chargeback alerts — no manual conversions, no support tickets.</p>
+          <ul class="prod-feats">
+            <li data-i18n="prod.bmd.f1">Automatic monthly exports by email</li>
+            <li data-i18n="prod.bmd.f2">Self-configurable account mapping</li>
+            <li data-i18n="prod.bmd.f3">Transaction-fee extraction</li>
+            <li data-i18n="prod.bmd.f4">Chargeback email alerts</li>
+          </ul>
+        </div>
+        <aside class="prod-aside">
+          <div class="price-row">
+            <span class="ptier" data-i18n="prod.tier.single">Single tier</span>
+            <span class="pval">€20<small data-i18n="prod.per.hotel">/hotel/mo</small></span>
+            <span class="pnote" data-i18n="prod.bmd.note">all features included</span>
+          </div>
+          <div class="divider"></div>
+          <span class="trial" data-i18n="prod.bmd.grandfather">▸ Existing customers keep their price for life</span>
+          <a class="plink" href="https://bmd.hotecholution.com" target="_blank" rel="noopener" data-i18n="prod.bmd.link">Visit bmd.hotecholution.com</a>
+        </aside>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING CALCULATOR ============ -->
+<section class="section" id="pricing">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span class="dot"></span><span data-i18n="calc.eyebrow">Transparent pricing</span></span>
+      <h2 data-i18n="calc.title">Priced by size — never by features.</h2>
+      <p class="lede" data-i18n="calc.lede">Smaller hotels pay less because they're smaller, not because they get a crippled product. Move the slider to see what your property would pay.</p>
+    </div>
+
+    <div class="calc-card reveal">
+      <div class="calc-control">
+        <h3 data-i18n="calc.q">Size up your portfolio</h3>
+        <p data-i18n="calc.qsub">Set rooms per property and how many properties — prices update live.</p>
+        <div class="calc-field">
+          <div class="calc-readout">
+            <span class="num" id="roomNum">40</span>
+            <span class="unit" id="roomUnit">rooms / property</span>
+          </div>
+          <div class="slider-wrap">
+            <input type="range" id="roomSlider" min="5" max="300" value="40" step="1" aria-label="Rooms per property" />
+            <div class="slider-labels"><span>5</span><span>150</span><span>300</span></div>
+          </div>
+        </div>
+        <div class="calc-field">
+          <div class="calc-readout">
+            <span class="num" id="propNum">1</span>
+            <span class="unit" id="propUnit">properties</span>
+          </div>
+          <div class="slider-wrap">
+            <input type="range" id="propSlider" min="1" max="20" value="1" step="1" aria-label="Number of properties" />
+            <div class="slider-labels"><span>1</span><span>10</span><span>20</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="calc-results" id="calcResults">
+        <!-- filled by JS -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VALUES ============ -->
+<section class="section values">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span class="dot"></span><span data-i18n="val.eyebrow">How we build</span></span>
+      <h2 data-i18n="val.title">Principles, not marketing.</h2>
+      <p class="lede" data-i18n="val.lede">A deliberately small company with a few non-negotiables — the reasons hoteliers trust software from one person in Vienna.</p>
+    </div>
+    <div class="val-grid">
+      <div class="val reveal"><div class="vn">01</div><h4 data-i18n="val.1t">Full features at every tier</h4><p data-i18n="val.1b">We never feature-gate. Tiers differ by property size only — small hotels get the exact same product.</p></div>
+      <div class="val reveal"><div class="vn">02</div><h4 data-i18n="val.2t">Cheapest reputable option</h4><p data-i18n="val.2b">Priced well below VC-funded competitors in every niche — and sustainable enough to keep it that way for years.</p></div>
+      <div class="val reveal"><div class="vn">03</div><h4 data-i18n="val.3t">Grandfathered for life</h4><p data-i18n="val.3b">Existing customers keep their price forever. Reliability is the brand, not a launch promo.</p></div>
+      <div class="val reveal"><div class="vn">04</div><h4 data-i18n="val.4t">German-first, English-ready</h4><p data-i18n="val.4b">DACH-grade German UI, support and docs are non-negotiable. Full English for international reach.</p></div>
+      <div class="val reveal"><div class="vn">05</div><h4 data-i18n="val.5t">GDPR by design, EU-hosted</h4><p data-i18n="val.5b">Built in Europe by a certified data-protection expert. Compliance is the default, not an add-on.</p></div>
+      <div class="val reveal"><div class="vn">06</div><h4 data-i18n="val.6t">Deterministic, not AI-for-hype</h4><p data-i18n="val.6b">Rules-based automation you can audit. We use AI only where it is genuinely better than a deterministic solution.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOUNDER ============ -->
+<section class="section" id="founder">
+  <div class="wrap founder-grid">
+    <div class="founder-card reveal">
+      <div class="founder-photo">
+        <picture>
+          <source type="image/avif" srcset="/assets/stefan.avif" />
+          <source type="image/webp" srcset="/assets/stefan.webp" />
+          <img src="/assets/stefan.jpg" alt="Stefan Wölflinger, founder of HoTechOlution" width="480" height="480" loading="lazy" decoding="async" />
+        </picture>
+      </div>
+      <div class="founder-name">Stefan Wölflinger</div>
+      <div class="founder-role" data-i18n="founder.role">Founder &amp; sole developer, HoTechOlution</div>
+      <ul class="founder-creds">
+        <li data-i18n="founder.c1">4+ years building on the apaleo OpenAPI</li>
+        <li data-i18n="founder.c2">Certified GDPR expert (Geprüfter Datenschutzexperte)</li>
+        <li data-i18n="founder.c3">15+ years in professional software development</li>
+        <li data-i18n="founder.c4">Led a hotel company's migration to apaleo in 2022</li>
+        <li data-i18n="founder.c5">Digital marketing expert</li>
+      </ul>
+    </div>
+    <div class="founder-body reveal">
+      <span class="eyebrow"><span class="dot"></span><span data-i18n="founder.eyebrow">The whole company</span></span>
+      <h2 style="margin-top:16px" data-i18n="founder.title">When you write in, Stefan replies.</h2>
+      <p class="lede" data-i18n="founder.lede">HoTechOlution is a one-person company in Vienna — no account managers, no outsourced support tiers. The person who builds the product is the person who answers your email, and one of only a handful of genuine apaleo specialists.</p>
+      <div class="founder-actions">
+        <a href="#contact" class="btn btn-primary" data-i18n="founder.cta1">Book 20 min with Stefan</a>
+        <a href="https://www.linkedin.com/in/stefan-woelflinger" target="_blank" rel="noopener" class="btn btn-ghost" data-i18n="founder.cta2">Connect on LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONSULTING ============ -->
+<section class="section consult" id="consulting">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span class="dot"></span><span data-i18n="cons.eyebrow">Consulting &amp; custom builds</span></span>
+      <h2 data-i18n="cons.title">Thinking about apaleo? Start here.</h2>
+      <p class="lede" data-i18n="cons.lede">From a 2-week Migration Sprint to bespoke connectors and GDPR audits — we get hotels onto apaleo cleanly, and keep them there. Stefan has led a hotel company's migration to apaleo (2022); the fastest way onto the platform is from someone who has already done it.</p>
+    </div>
+    <div class="consult-grid">
+      <div class="consult-card reveal">
+        <div class="ci" style="--ci-color:var(--green)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="17 4 21 8 17 12"></polyline><line x1="3" y1="8" x2="21" y2="8"></line><polyline points="7 12 3 16 7 20"></polyline><line x1="21" y1="16" x2="3" y2="16"></line></svg>
+        </div>
+        <h4 data-i18n="cons.1t">apaleo Migration Sprint</h4>
+        <p data-i18n="cons.1b">A fixed-scope, ~2-week setup to get your property live on apaleo cleanly — configuration, data, integrations.</p>
+        <div class="cprice" data-i18n="cons.1p">Fixed price · €8,500–14,500</div>
+      </div>
+      <div class="consult-card reveal">
+        <div class="ci" style="--ci-color:var(--periwinkle)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.5 1.5"></path><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.5-1.5"></path></svg>
+        </div>
+        <h4 data-i18n="cons.2t">Custom apaleo connector</h4>
+        <p data-i18n="cons.2b">A bespoke integration between apaleo and your accounting, CRM or internal tooling — built and supported by the developer.</p>
+        <div class="cprice" data-i18n="cons.2p">Fixed price · €6,000–18,000</div>
+      </div>
+      <div class="consult-card reveal">
+        <div class="ci" style="--ci-color:var(--coral)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.5 8.5 8 11 4.5-2.5 8-6 8-11V5l-8-3z"></path><polyline points="8.5 12 11 14.5 15.5 9.5"></polyline></svg>
+        </div>
+        <h4 data-i18n="cons.3t">GDPR audit for apaleo hotels</h4>
+        <p data-i18n="cons.3b">A data-protection review led by a certified Datenschutzexperte — DSAR, retention and consent, mapped to your apaleo stack.</p>
+        <div class="cprice" data-i18n="cons.3p">Day rate · €1,000–1,500</div>
+      </div>
+      <div class="consult-card reveal">
+        <div class="ci" style="--ci-color:var(--periwinkle)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="9" width="6" height="6" rx="1.5"></rect><rect x="15" y="3" width="6" height="6" rx="1.5"></rect><rect x="15" y="15" width="6" height="6" rx="1.5"></rect><path d="M9 12h3V6h3"></path><path d="M12 12v6h3"></path></svg>
+        </div>
+        <h4 data-i18n="cons.4t">No-code automation</h4>
+        <p data-i18n="cons.4b">Connect your hotel's tools and automate repetitive workflows with n8n and Make.com — no engineering team required.</p>
+        <div class="cprice" data-i18n="cons.4p">€140–180/hour · fixed-price packages on request</div>
+      </div>
+      <div class="consult-card reveal">
+        <div class="ci" style="--ci-color:var(--coral)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 11 18-5v12L3 14v-3z"></path><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"></path></svg>
+        </div>
+        <h4 data-i18n="cons.5t">Digital marketing for hospitality</h4>
+        <p data-i18n="cons.5b">Google-certified support for hotel marketing — Ads, Analytics and digital strategy from someone who knows the industry.</p>
+        <div class="cprice" data-i18n="cons.5p">€140–180/hour · fixed-price packages on request</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ (new) ============ -->
+<section class="section faq" id="faq">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span class="dot"></span><span data-i18n="faq.eyebrow">Frequently asked</span></span>
+      <h2 data-i18n="faq.title">Straight answers.</h2>
+      <p class="lede" data-i18n="faq.lede">The six questions we hear most often. If yours isn't here, write Stefan directly.</p>
+    </div>
+    <div class="faq-list reveal">
+      <details class="faq-item">
+        <summary data-i18n="faq.q1">What does "apaleo-native" actually mean?</summary>
+        <p data-i18n="faq.a1">Every HoTechOlution product is built directly on apaleo's OpenAPI and live webhooks. Cases close in seconds, not on tomorrow's batch run, and the UI embeds inside apaleo One. No CSV exports, no nightly syncs, no "integration partners" in the middle.</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq.q2">Who builds and supports the software?</summary>
+        <p data-i18n="faq.a2">Stefan Wölflinger — founder, sole developer, and the person who answers your email. 4+ years on the apaleo OpenAPI, 15+ years in software development, certified Datenschutzexperte in Vienna.</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq.q3">Are your apps GDPR-compliant?</summary>
+        <p data-i18n="faq.a3">Yes. Built in Europe, hosted in the EU, designed by a Geprüfter Datenschutzexperte. Each customer's data is isolated; payment links use Apaleo Pay; no US sub-processors in the request path. We can also run a full GDPR audit on your apaleo stack — see Consulting.</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq.q4">What does an apaleo BMD accounting export cost?</summary>
+        <p data-i18n="faq.a4">€20 per hotel per month, single tier, all features included. Existing BMD Connector customers keep their original price for life.</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq.q5">How is GIMSI different from a generic CRM or group tool?</summary>
+        <p data-i18n="faq.a5">GIMSI lives inside apaleo One in 11 places. Group profiles, rate selection, offer PDFs and reservation pushback all happen against your real apaleo data in real time — not in a separate system that forgets to sync.</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq.q6">What's the difference between Light and Enterprise pricing?</summary>
+        <p data-i18n="faq.a6">Tiers differ by property size only — never by features. Smaller hotels pay less because they're smaller, not because the product is crippled. Above the Light caps you switch to per-room Enterprise pricing automatically.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT / CTA ============ -->
+<section class="section cta" id="contact">
+  <div class="wrap">
+    <div class="cta-card reveal">
+      <span class="eyebrow"><span class="dot"></span><span data-i18n="cta.eyebrow">Let's talk</span></span>
+      <h2 data-i18n="cta.title">Start a free trial, or book 20 minutes with Stefan.</h2>
+      <p data-i18n="cta.body">No sales team, no scripted demo — a direct conversation with the person who builds and supports the software.</p>
+      <div class="cta-actions">
+        <a href="https://meetings-eu1.hubspot.com/stefan-woelflinger" target="_blank" rel="noopener" class="btn btn-coral" data-i18n="cta.btn1">Book a 20-min call</a>
+        <a href="mailto:stefan@hotecholution.com" class="btn btn-ghost" style="color:#fff;border-color:rgba(255,255,255,.3)" data-i18n="cta.btn2">stefan@hotecholution.com</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="#top">
+          <img src="/assets/hto-icon.png" alt="" width="30" height="30" decoding="async" />
+          <span class="wm" style="font-size:18px"><span class="g">Ho</span><span class="p">Tech</span><span class="c">Olution</span></span>
+        </a>
+        <p class="fdesc" data-i18n="foot.desc">Single-purpose SaaS for apaleo hotels — built, shipped and supported from Vienna.</p>
+      </div>
+      <div>
+        <h5 data-i18n="foot.h.products">Products</h5>
+        <ul>
+          <li><a href="https://gimsi.app" target="_blank" rel="noopener">GIMSI</a></li>
+          <li><a href="https://goclearbalance.app" target="_blank" rel="noopener">GoClearBalance</a></li>
+          <li><a href="https://bmd.hotecholution.com" target="_blank" rel="noopener" data-i18n="prod.bmd.name">BMD Connector</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 data-i18n="foot.h.company">Company</h5>
+        <ul>
+          <li><a href="#founder" data-i18n="nav.founder">Founder</a></li>
+          <li><a href="#consulting" data-i18n="nav.consulting">Consulting</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact" data-i18n="foot.contact">Contact</a></li>
+          <li><a href="/impressum.html" data-i18n="foot.impressum">Imprint</a></li>
+          <li><a href="/datenschutz.html" data-i18n="foot.privacy">Privacy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 data-i18n="foot.h.contact">Get in touch</h5>
+        <ul>
+          <li><a href="mailto:stefan@hotecholution.com">stefan@hotecholution.com</a></li>
+          <li>
+            <button type="button" class="phone-reveal" id="phoneReveal" data-i18n="phone.reveal">Reveal phone number</button>
+          </li>
+          <li data-i18n="foot.addr">Marktgemeindegasse 63/D8, 1230 Vienna, Austria</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span data-i18n="foot.legal">© 2026 HoTechOlution — Stefan Wölflinger. Sole proprietorship, WKO Vienna. B2B only.</span>
+      <span class="mono" data-i18n="foot.tag">Hospitality · Technology · S/Rev/Ev·olution</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/app.js" defer></script>
+</body>
+</html>

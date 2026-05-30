@@ -1,0 +1,52 @@
+# HoTechOlution
+
+> apaleo-native SaaS for hotels — single-purpose apps and specialist consulting, built by one developer in Vienna.
+
+## What
+- Single-purpose SaaS apps for hotels running the apaleo PMS
+- One-person company: Stefan Wölflinger, Vienna, Austria
+- B2B only; DACH-first, English-ready
+- pricing: size-tiered, never feature-gated; existing customers grandfathered for life
+- The name encodes the thesis: **Ho**spitality + **Tech**nology + (S/**Ev**/**Rev**)**olution**
+
+## Products (live)
+- **GIMSI** — group & MICE proposal management for apaleo. Light €49/hotel/mo (up to 60 rooms, up to 3 hotels) · Enterprise €0.90/room/mo (unlimited). 30-day free trial. Product: https://gimsi.app · Corporate landing page: https://hotecholution.com/products/gimsi/
+- **GoClearBalance** — automated guest-bill dunning & debt collection for apaleo. Light €29/property/mo (up to 30 rooms, max 2 properties) · Enterprise €1.50/room/mo (unlimited). 30-day free trial. Product: https://goclearbalance.app · Corporate landing page: https://hotecholution.com/products/goclearbalance/
+- **BMD Connector** — apaleo → BMD accounting export, built for the Austrian market. €20/hotel/mo, single tier, all features. Product: https://bmd.hotecholution.com · Corporate landing page: https://hotecholution.com/products/bmd-connector/
+
+## Consulting
+- apaleo Migration Sprint — €8,500–14,500 fixed price
+- Custom apaleo connector build — €6,000–18,000 fixed price
+- GDPR audit for apaleo hotels — €1,000–1,500/day
+- No-code automation (n8n, Make.com)
+- Digital marketing for hospitality
+
+## Founder
+- Stefan Wölflinger — founder, sole developer, sole support
+- 4+ years building on the apaleo OpenAPI; 15+ years in software development
+- Geprüfter Datenschutzexperte (certified GDPR expert), UBIT-Akademie 2018
+- Led a hotel company's migration to apaleo in 2022
+- "When you write in, Stefan replies."
+
+## Why apaleo only
+- apaleo is the cloud-native, API-first hotel PMS (Munich, est. 2017); 2,000+ properties, 85,000+ units, 30+ countries
+- Real-time webhooks + OpenAPI enable deep integrations — no CSV exports, no nightly syncs
+- apaleo One UI lets apps embed directly into the hotel's PMS interface
+- EU-hosted; GDPR by design; no integration fees; APIs are free
+
+## Track record (GIMSI)
+- Certified in the apaleo App Store (Aug 2024)
+- 27+ apaleo properties; 7,000+ offers generated; 110,000+ reservations
+
+## Contact
+- stefan@hotecholution.com
+- +43 676 919 55 42
+- Marktgemeindegasse 63/D8, 1230 Vienna, Austria
+- Book a call: https://meetings-eu1.hubspot.com/stefan-woelflinger
+
+## Legal
+- Sole proprietorship (Einzelunternehmen), WKO Vienna (Consulting & IT)
+- Small-business VAT exemption: Kleinunternehmerregelung §6(1)(27) UStG; no VAT charged
+- Austrian law; jurisdiction Vienna; contracts B2B only (§1 KSchG)
+- Imprint: https://hotecholution.com/impressum.html
+- Privacy: https://hotecholution.com/datenschutz.html

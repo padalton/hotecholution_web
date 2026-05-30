@@ -1,0 +1,11 @@
+{
+  "name": "hotecholution-web",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "HoTechOlution.com — static site (Cloudflare Pages)",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs && ddev start"
+  }
+}

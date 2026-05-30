@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GoClearBalance — apaleo Dunning Automation | HoTechOlution</title>
+<meta name="description" content="GoClearBalance scans apaleo for overdue guest balances, sends escalating dunning notices with Apaleo Pay links, and auto-closes cases on payment. GDPR-by-design. 30-day free trial." />
+<meta name="robots" content="index,follow,max-image-preview:large" />
+<meta name="theme-color" content="#110546" />
+<meta name="author" content="Stefan Wölflinger" />
+
+<link rel="canonical" href="https://hotecholution.com/products/goclearbalance/" />
+<link rel="alternate" hreflang="en" href="https://hotecholution.com/products/goclearbalance/" />
+<link rel="alternate" hreflang="de" href="https://hotecholution.com/de/products/goclearbalance/" />
+<link rel="alternate" hreflang="x-default" href="https://hotecholution.com/products/goclearbalance/" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="GoClearBalance — Automated apaleo Dunning &amp; Debt Collection" />
+<meta property="og:description" content="Find overdue balances. Send dunning notices. Close cases — automatically. apaleo-native, GDPR-by-design, bilingual DE/EN." />
+<meta property="og:image" content="https://hotecholution.com/assets/og-card.png" />
+<meta property="og:url" content="https://hotecholution.com/products/goclearbalance/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="HoTechOlution" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:locale:alternate" content="de_AT" />
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="GoClearBalance — Automated apaleo Dunning &amp; Debt Collection" />
+<meta name="twitter:description" content="Find overdue balances. Send dunning notices. Close cases — automatically. apaleo-native, GDPR-by-design, bilingual DE/EN." />
+<meta name="twitter:image" content="https://hotecholution.com/assets/og-card.png" />
+
+<!-- Favicons -->
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icon-32.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png" />
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+
+<!-- Self-hosted fonts -->
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/poppins-700.woff2" crossorigin />
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/plex-sans-400.woff2" crossorigin />
+
+<link rel="stylesheet" href="/styles.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://hotecholution.com/products/goclearbalance/#webpage",
+      "url": "https://hotecholution.com/products/goclearbalance/",
+      "name": "GoClearBalance — apaleo Dunning Automation | HoTechOlution",
+      "description": "GoClearBalance scans apaleo for overdue guest balances, sends escalating dunning notices with Apaleo Pay links, and auto-closes cases on payment. GDPR-by-design. 30-day free trial.",
+      "inLanguage": "en",
+      "isPartOf": { "@type": "WebSite", "url": "https://hotecholution.com/", "name": "HoTechOlution" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hotecholution.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://hotecholution.com/#products" },
+        { "@type": "ListItem", "position": 3, "name": "GoClearBalance" }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "GoClearBalance",
+      "url": "https://goclearbalance.app",
+      "image": "https://hotecholution.com/assets/icon-goclearbalance.png",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "softwareRequirements": "apaleo PMS, Apaleo Pay",
+      "publisher": { "@type": "Organization", "name": "HoTechOlution", "url": "https://hotecholution.com/" },
+      "description": "Automated dunning and debt collection for apaleo hotels — finds overdue balances, sends escalating notices with one-click Apaleo Pay links, auto-closes cases on payment. Bilingual DE/EN, GDPR-by-design, immutable audit log.",
+      "featureList": [
+        "4 configurable dunning stages (Reminder through Final Notice)",
+        "One-click Apaleo Pay payment links in every notice",
+        "Real-time auto-close via apaleo webhooks",
+        "Bilingual DE/EN letters with guest-language detection",
+        "Per-property rules: grace days, fees, interest, channel exclusions",
+        "Immutable audit log and Transparency Log",
+        "Trial mode routes notices to internal email for testing",
+        "Safety rule: no dunning on checkout or invoice day"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Light",
+          "price": "29",
+          "priceCurrency": "EUR",
+          "description": "€29 per property per month — up to 30 rooms, max 2 properties. 30-day free trial, no credit card.",
+          "url": "https://goclearbalance.app"
+        },
+        {
+          "@type": "Offer",
+          "name": "Enterprise",
+          "price": "1.50",
+          "priceCurrency": "EUR",
+          "description": "€1.50 per room per month — unlimited properties. −10% with annual prepay.",
+          "url": "https://goclearbalance.app"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Will GoClearBalance send a dunning notice without a payment link?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No — never. GoClearBalance will not dispatch a dunning notice unless a working Apaleo Pay payment link can be generated for the balance. If the link cannot be created, the case is held and flagged for your team rather than sent without a way for the guest to pay." }
+        },
+        {
+          "@type": "Question",
+          "name": "How do partial payments work?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Partial payments are automatically reconciled via apaleo's payment webhooks. The case stays open until the outstanding balance falls below the configured threshold. If the guest overpays, the overpayment is detected and the case closes cleanly." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I exclude OTA bookings from dunning?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes — per-property channel and source filters let you exclude any booking channel or reservation source from the dunning process. OTA reservations, corporate rates or any other segment can be excluded individually per property." }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens after the final notice?",
+          "acceptedAnswer": { "@type": "Answer", "text": "The automation stops. GoClearBalance does not initiate any further action after the final notice — your team decides what to do next: close the case, hand it to a collection agency, or take other steps. You stay in control at every stage." }
+        },
+        {
+          "@type": "Question",
+          "name": "How is data isolated between hotels?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Each GoClearBalance account operates on a completely separate database. There is no shared storage between accounts. This is the architecture required by GDPR and by good multi-tenant SaaS design: one hotel's data is never accessible from another account." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is GoClearBalance in the apaleo App Store?",
+          "acceptedAnswer": { "@type": "Answer", "text": "In production use at our pilot customer since late 2025. apaleo App Store listing planned for Q3 2026; general availability Q4 2026. Hotels interested in joining the pilot can book a call with Stefan." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body data-lang="en">
+
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="/" aria-label="HoTechOlution home">
+      <img src="/assets/hto-icon.png" alt="" width="34" height="34" decoding="async" />
+      <span class="wm"><span class="g">Ho</span><span class="p">Tech</span><span class="c">Olution</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="/#products">Products</a>
+      <a href="/#pricing">Pricing</a>
+      <a href="/#founder">Founder</a>
+      <a href="/#consulting">Consulting</a>
+      <a href="/#faq">FAQ</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang" role="group" aria-label="Language">
+        <button data-lang-btn="en" data-lang-href="/products/goclearbalance/" class="active" aria-pressed="true">EN</button>
+        <button data-lang-btn="de" data-lang-href="/de/products/goclearbalance/" aria-pressed="false">DE</button>
+      </div>
+      <a href="/#contact" class="btn btn-coral">Book a call</a>
+      <button class="nav-burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="mobileMenu"><span aria-hidden="true"></span></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="/#products">Products</a>
+  <a href="/#pricing">Pricing</a>
+  <a href="/#founder">Founder</a>
+  <a href="/#consulting">Consulting</a>
+  <a href="/#faq">FAQ</a>
+  <a href="/#contact">Book a call</a>
+  <div class="lang lang-row" role="group" aria-label="Language">
+    <button data-lang-btn="en" data-lang-href="/products/goclearbalance/" class="active" aria-pressed="true">EN</button>
+    <button data-lang-btn="de" data-lang-href="/de/products/goclearbalance/" aria-pressed="false">DE</button>
+  </div>
+</div>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow"><span class="dot"></span><span>Automated apaleo dunning &amp; debt collection</span></span>
+      <h1 class="hero-h1-product" style="margin-top:20px">Apaleo dunning that runs itself.</h1>
+      <p class="hero-sub">GoClearBalance scans apaleo for overdue guest balances, sends escalating notices with one-click Apaleo Pay links, and closes cases the moment the guest pays. Bilingual DE/EN, GDPR-by-design, immutable audit log.</p>
+      <div class="hero-cta">
+        <a href="https://goclearbalance.app" target="_blank" rel="noopener" class="btn btn-primary">Start free trial on goclearbalance.app →</a>
+        <a href="/#contact" class="btn btn-ghost">Book 20 min with Stefan</a>
+      </div>
+      <div class="hero-meta">
+        <div class="item"><b>27+</b><span>from the makers of GIMSI</span></div>
+        <div class="item"><b>110,000+</b><span>apaleo reservations to date</span></div>
+        <div class="item"><b>4</b><span>configurable dunning stages</span></div>
+        <div class="item"><b>GDPR</b><span>by design, EU-hosted</span></div>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="halo"></div>
+      <picture>
+        <source type="image/avif" srcset="/assets/icon-goclearbalance.avif" />
+        <source type="image/webp" srcset="/assets/icon-goclearbalance.webp" />
+        <img src="/assets/icon-goclearbalance.png" alt="GoClearBalance" width="200" height="200" fetchpriority="high" decoding="async" />
+      </picture>
+    </div>
+  </div>
+</section>
+
+<section class="section products">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span class="dot"></span><span>How GoClearBalance works</span></span>
+      <h2>Rules-based dunning that runs without a spreadsheet.</h2>
+      <p class="lede">Manual dunning is slow, error-prone and easy to skip. GoClearBalance replaces it with a configurable, auditable workflow that runs against your live apaleo data every day.</p>
+    </div>
+    <div class="why-grid">
+
+      <article class="why-card reveal" style="--accent:var(--coral)">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>4 configurable dunning stages</h3>
+        <p>Reminder, 1st Notice, 2nd Notice and Final Notice — with configurable timing, fees, daily interest and per-stage approval gates between each step. You decide how aggressive or lenient each stage is, per property.</p>
+      </article>
+
+      <article class="why-card reveal" style="--accent:var(--green)">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+        </div>
+        <h3>One-click Apaleo Pay links in every notice</h3>
+        <p>Every dunning letter includes a secure, guest-specific Apaleo Pay payment link — generated automatically. GoClearBalance will never send a notice without a working link. Guests can pay in one click; no login, no friction.</p>
+      </article>
+
+      <article class="why-card reveal" style="--accent:var(--periwinkle)">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <h3>Real-time auto-close via apaleo webhooks</h3>
+        <p>When a guest pays, apaleo fires a payment webhook. GoClearBalance receives it and closes the case in seconds — no morning batch, no manual reconciliation required. Partial payments are tracked until the balance clears.</p>
+      </article>
+
+      <article class="why-card reveal" style="--accent:var(--ink)">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <h3>Bilingual DE/EN letters with language detection</h3>
+        <p>Dunning letters are generated in German or English based on the guest's language preference in apaleo. You write the templates once — GoClearBalance handles which language reaches which guest automatically.</p>
+      </article>
+
+      <article class="why-card reveal" style="--accent:var(--coral)">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+        </div>
+        <h3>Immutable audit log and Transparency Log</h3>
+        <p>Every dunning action is logged permanently. The Transparency Log goes further: it records why each candidate was <em>not</em> dunned — so you can demonstrate compliance, investigate edge cases, and satisfy GDPR audit requirements.</p>
+      </article>
+
+      <article class="why-card reveal" style="--accent:var(--green)">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+        </div>
+        <h3>Per-property rules and safety guardrails</h3>
+        <p>Configure grace periods, minimum dunnable amounts, channel/source exclusions and fee schedules per property independently. Built-in safety rule: GoClearBalance never dunns a guest on their checkout or invoice day.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap section-head reveal" style="max-width: 760px; margin-inline: auto; text-align: center;">
+    <span class="eyebrow"><span class="dot"></span><span>Why apaleo-native matters</span></span>
+    <h2>Dunning that works in real time, not the next morning.</h2>
+    <p class="lede">GoClearBalance reads folio state and payment events directly from apaleo's live API. When a guest pays — regardless of the hour — the webhook fires, the case closes, and no further notices go out. That only works when the tool is built on the same platform as the PMS.</p>
+    <p style="margin-top:28px"><a href="/#why" class="btn btn-ghost">Why we build exclusively for apaleo →</a></p>
+  </div>
+</section>
+
+<section class="section" id="pricing">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span class="dot"></span><span>Transparent pricing</span></span>
+      <h2>Priced by property size — never by features.</h2>
+      <p class="lede">Both tiers include the full GoClearBalance feature set. The only difference is how many rooms and properties you operate. 30-day free trial, no credit card required.</p>
+    </div>
+    <div class="pricing-grid reveal">
+      <article class="pricing-card">
+        <div class="pricing-card-head">
+          <span class="pricing-tier">Light</span>
+          <span class="pricing-eyebrow">Up to 30 rooms · max 2 properties</span>
+        </div>
+        <div class="pricing-price">
+          <span class="pricing-amount">€29</span>
+          <span class="pricing-unit">/property/month</span>
+        </div>
+        <ul class="pricing-features">
+          <li>Full feature set included</li>
+          <li>Up to 30 rooms per property</li>
+          <li>Max 2 properties</li>
+          <li>30-day free trial, no card</li>
+        </ul>
+        <a href="https://goclearbalance.app" target="_blank" rel="noopener" class="btn btn-primary">Start free trial →</a>
+      </article>
+      <article class="pricing-card pricing-card-featured">
+        <div class="pricing-card-head">
+          <span class="pricing-tier">Enterprise</span>
+          <span class="pricing-eyebrow">Unlimited · −10% annual prepay</span>
+        </div>
+        <div class="pricing-price">
+          <span class="pricing-amount">€1.50</span>
+          <span class="pricing-unit">/room/month</span>
+        </div>
+        <ul class="pricing-features">
+          <li>Full feature set included</li>
+          <li>Unlimited rooms &amp; properties</li>
+          <li>−10% discount with annual prepay</li>
+          <li>30-day free trial, no card</li>
+        </ul>
+        <a href="https://goclearbalance.app" target="_blank" rel="noopener" class="btn btn-coral">Start free trial →</a>
+      </article>
+    </div>
+    <p class="pricing-note">Existing customers keep their price for life.</p>
+  </div>
+</section>
+
+<section class="section faq">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span class="dot"></span><span>Frequently asked</span></span>
+      <h2>GoClearBalance questions, answered.</h2>
+      <p class="lede">The questions we hear most from apaleo hotels evaluating dunning and debt collection automation.</p>
+    </div>
+    <div class="faq-list reveal">
+      <details class="faq-item">
+        <summary>Will GoClearBalance send a dunning notice without a payment link?</summary>
+        <p>No — never. GoClearBalance will not dispatch a dunning notice unless a working Apaleo Pay payment link can be generated for the balance. If the link cannot be created, the case is held and flagged for your team rather than sent without a way for the guest to pay.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How do partial payments work?</summary>
+        <p>Partial payments are automatically reconciled via apaleo's payment webhooks. The case stays open until the outstanding balance falls below the configured threshold. If the guest overpays, the overpayment is detected and the case closes cleanly.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Can I exclude OTA bookings from dunning?</summary>
+        <p>Yes — per-property channel and source filters let you exclude any booking channel or reservation source from the dunning process. OTA reservations, corporate rates or any other segment can be excluded individually per property.</p>
+      </details>
+      <details class="faq-item">
+        <summary>What happens after the final notice?</summary>
+        <p>The automation stops. GoClearBalance does not initiate any further action after the final notice — your team decides what to do next: close the case, hand it to a collection agency, or take other steps. You stay in control at every stage.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How is data isolated between hotels?</summary>
+        <p>Each GoClearBalance account operates on a completely separate database. There is no shared storage between accounts. This is the architecture required by GDPR and by good multi-tenant SaaS design: one hotel's data is never accessible from another account.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Is GoClearBalance in the apaleo App Store?</summary>
+        <p>In production use at our pilot customer since late 2025. apaleo App Store listing planned for Q3 2026; general availability Q4 2026. Hotels interested in joining the pilot can book a call with Stefan.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-block:60px;">
+  <div class="wrap reveal" style="max-width:740px; margin-inline:auto; text-align:center;">
+    <p class="lede" style="font-size:17px;">Built and supported by <strong>Stefan Wölflinger</strong> — 4+ years on the apaleo OpenAPI, certified Datenschutzexperte in Vienna. The person who builds the product is the person who answers your support email.</p>
+    <p style="margin-top:20px;"><a href="/#founder" class="btn btn-ghost">More about Stefan →</a></p>
+  </div>
+</section>
+
+<section class="section cta">
+  <div class="wrap">
+    <div class="cta-card reveal">
+      <span class="eyebrow"><span class="dot"></span><span>Get started</span></span>
+      <h2>Try GoClearBalance free for 30 days.</h2>
+      <p>No credit card, no setup fee. Connect to apaleo and start recovering overdue balances — the automation handles the rest.</p>
+      <div class="cta-actions">
+        <a href="https://goclearbalance.app" target="_blank" rel="noopener" class="btn btn-coral">Start free trial on goclearbalance.app →</a>
+        <a href="/#contact" class="btn btn-ghost" style="color:#fff;border-color:rgba(255,255,255,.3)">Book 20 min with Stefan</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="/">
+          <img src="/assets/hto-icon.png" alt="" width="30" height="30" decoding="async" />
+          <span class="wm" style="font-size:18px"><span class="g">Ho</span><span class="p">Tech</span><span class="c">Olution</span></span>
+        </a>
+        <p class="fdesc">Single-purpose SaaS for apaleo hotels — built, shipped and supported from Vienna.</p>
+      </div>
+      <div>
+        <h5>Products</h5>
+        <ul>
+          <li><a href="/products/gimsi/">GIMSI</a></li>
+          <li><a href="/products/goclearbalance/">GoClearBalance</a></li>
+          <li><a href="/products/bmd-connector/">BMD Connector</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul>
+          <li><a href="/#founder">Founder</a></li>
+          <li><a href="/#consulting">Consulting</a></li>
+          <li><a href="/#faq">FAQ</a></li>
+          <li><a href="/#contact">Contact</a></li>
+          <li><a href="/impressum.html">Imprint</a></li>
+          <li><a href="/datenschutz.html">Privacy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Get in touch</h5>
+        <ul>
+          <li><a href="mailto:stefan@hotecholution.com">stefan@hotecholution.com</a></li>
+          <li><button type="button" class="phone-reveal" id="phoneReveal">Reveal phone number</button></li>
+          <li>Marktgemeindegasse 63/D8, 1230 Vienna, Austria</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>© 2026 HoTechOlution — Stefan Wölflinger. Sole proprietorship, WKO Vienna. B2B only.</span>
+      <span class="mono">Hospitality · Technology · S/Rev/Ev·olution</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/app.js" defer></script>
+</body>
+</html>

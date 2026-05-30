@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://hotecholution.com/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hotecholution.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hotecholution.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hotecholution.com/"/>
+  </url>
+  <url>
+    <loc>https://hotecholution.com/de/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hotecholution.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hotecholution.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hotecholution.com/"/>
+  </url>
+
+  <!-- Product landing pages -->
+  <url>
+    <loc>https://hotecholution.com/products/gimsi/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hotecholution.com/products/gimsi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hotecholution.com/de/products/gimsi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hotecholution.com/products/gimsi/"/>
+  </url>
+  <url>
+    <loc>https://hotecholution.com/de/products/gimsi/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hotecholution.com/products/gimsi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hotecholution.com/de/products/gimsi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hotecholution.com/products/gimsi/"/>
+  </url>
+  <url>
+    <loc>https://hotecholution.com/products/goclearbalance/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hotecholution.com/products/goclearbalance/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hotecholution.com/de/products/goclearbalance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hotecholution.com/products/goclearbalance/"/>
+  </url>
+  <url>
+    <loc>https://hotecholution.com/de/products/goclearbalance/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hotecholution.com/products/goclearbalance/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hotecholution.com/de/products/goclearbalance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hotecholution.com/products/goclearbalance/"/>
+  </url>
+  <url>
+    <loc>https://hotecholution.com/products/bmd-connector/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hotecholution.com/products/bmd-connector/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hotecholution.com/de/products/bmd-connector/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hotecholution.com/products/bmd-connector/"/>
+  </url>
+  <url>
+    <loc>https://hotecholution.com/de/products/bmd-connector/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hotecholution.com/products/bmd-connector/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hotecholution.com/de/products/bmd-connector/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hotecholution.com/products/bmd-connector/"/>
+  </url>
+
+  <!-- Legal pages -->
+  <url>
+    <loc>https://hotecholution.com/impressum.html</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hotecholution.com/impressum.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hotecholution.com/impressum-en.html"/>
+  </url>
+  <url>
+    <loc>https://hotecholution.com/impressum-en.html</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hotecholution.com/impressum.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hotecholution.com/impressum-en.html"/>
+  </url>
+  <url>
+    <loc>https://hotecholution.com/datenschutz.html</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hotecholution.com/datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hotecholution.com/privacy-policy.html"/>
+  </url>
+  <url>
+    <loc>https://hotecholution.com/privacy-policy.html</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hotecholution.com/datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hotecholution.com/privacy-policy.html"/>
+  </url>
+</urlset>
