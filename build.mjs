@@ -25,6 +25,13 @@ async function build() {
 
   const template = await readFile(path.join(ROOT, "index.html"), "utf8");
 
+  // Emit runtime-strings as external files so the CSP can stay strict
+  // (`script-src 'self'`, no inline). app.js reads window.HTO_STRINGS.
+  for (const lang of ["en", "de"]) {
+    const body = `window.HTO_STRINGS = ${escapeJson(runtimeStrings(lang))};\n`;
+    await writeFile(path.join(DIST, `strings-${lang}.js`), body);
+  }
+
   await writeFile(path.join(DIST, "index.html"), renderPage(template, "en"));
   await writeFile(path.join(DIST, "de", "index.html"), renderPage(template, "de"));
 
@@ -105,12 +112,12 @@ function renderPage(html, lang) {
     );
   }
 
-  // 7. Inject runtime strings before app.js (script src may have leading slash)
-  const runtime = runtimeStrings(lang);
-  const inject = `<script>window.HTO_STRINGS = ${escapeJson(runtime)};</script>`;
+  // 7. Inject external strings tag before app.js. Both are deferred, so they
+  //    execute in document order — strings populate window.HTO_STRINGS, then
+  //    app.js reads it. Kept external (not inline) so script-src 'self' holds.
   html = html.replace(
     /<script\s+src="\/?app\.js"[^>]*><\/script>/i,
-    `${inject}\n<script src="/app.js" defer></script>`
+    `<script src="/strings-${lang}.js" defer></script>\n<script src="/app.js" defer></script>`
   );
 
   return html;

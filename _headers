@@ -17,6 +17,11 @@
 /*.css
   Cache-Control: public, max-age=31536000, immutable
 
+# strings-*.js carry i18n copy; must not be cached as immutable or
+# copy edits won't reach users until they hard-reload.
+/strings-*.js
+  Cache-Control: public, max-age=300, must-revalidate
+
 /*.js
   Cache-Control: public, max-age=31536000, immutable
 
